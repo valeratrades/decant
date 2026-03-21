@@ -46,6 +46,8 @@
 
           # `nix develop` — dev shell with uv, matching quantm conventions
           devenv.shells.default = {
+            devenv.root = toString ./.;
+
             languages.python = {
               enable = true;
               package = python;
