@@ -67,7 +67,3 @@ dmypy.json
 
 # misc
 **/**.bak
-
-# Claude/agent generated files
-AGENTS.md
-CLAUDE.md
