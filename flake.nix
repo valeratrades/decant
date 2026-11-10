@@ -17,7 +17,7 @@
 
       perSystem = { config, self', inputs', pkgs, system, ... }:
         let
-          python = pkgs.python312;
+          python = pkgs.python3;
         in
         {
           # `nix run` — runs the decant CLI
